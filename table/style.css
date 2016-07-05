@@ -1,0 +1,29 @@
+.table{
+	margin: 0 auto;
+	border-collapse:collapse;
+}
+.box{
+	border:15px solid black;
+	padding: 50px;
+}
+.yellow_top{
+	background: yellow;
+}
+.red{
+	background: red;
+}
+.middle_yellow{
+	background: yellow;
+}
+.big_black{
+	background: black;
+}
+.blue{
+	background: blue;
+}
+.yellow_bottom{
+	background: yellow;
+}
+.small_black{
+	background: black;
+}
