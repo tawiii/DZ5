@@ -1,0 +1,67 @@
+/* line 1, ../sass/header.scss */
+.header {
+  background: #085292;
+  height: 36px;
+}
+
+/* line 6, ../sass/header.scss */
+.menu {
+  float: right;
+  font-size: 0;
+}
+/* line 10, ../sass/header.scss */
+.menu_item {
+  display: inline-block;
+  line-height: 36px;
+  font-size: 14px;
+}
+/* line 16, ../sass/header.scss */
+.menu_link {
+  display: block;
+  color: #60b5ed;
+  text-decoration: none;
+  padding: 0 10px 0 14px;
+}
+/* line 21, ../sass/header.scss */
+.menu_link:hover {
+  color: #ffffff;
+  background-color: #4eabda;
+}
+/* line 27, ../sass/header.scss */
+.menu__flag {
+  color: #ffffff;
+  padding-left: 50px;
+  padding-right: 17px;
+  background: url("../img/flag.png") 12% 50% no-repeat;
+}
+/* line 32, ../sass/header.scss */
+.menu__flag:hover {
+  background-color: transparent;
+}
+/* line 36, ../sass/header.scss */
+.menu__borde {
+  border-right: 1px solid #56a2dc;
+  line-height: 31px;
+  padding-right: 18px;
+}
+/* line 40, ../sass/header.scss */
+.menu__borde:hover {
+  line-height: 36px;
+}
+/* line 44, ../sass/header.scss */
+.menu__gradient {
+  background: linear-gradient(to top, #2e7ac4, #51b1dc);
+  border-bottom: 1px solid #459ad4;
+  border-left: 1px solid #459ad4;
+  border-right: 1px solid #459ad4;
+  padding: 0 12px;
+  margin-right: 20px;
+  height: 35px;
+  color: #fff;
+}
+/* line 54, ../sass/header.scss */
+.menu_check {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid #aec8e5;
+}

@@ -1,0 +1,77 @@
+/* line 1, ../sass/content.scss */
+.content {
+  width: 562px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 212px auto;
+}
+/* line 6, ../sass/content.scss */
+.content_info {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 2px solid #ccd0c2;
+}
+/* line 14, ../sass/content.scss */
+.content_facebook {
+  display: block;
+  text-align: center;
+  margin: 36px 0 32px 0;
+}
+/* line 19, ../sass/content.scss */
+.content_ou {
+  color: #999999;
+  font-size: 14px;
+  text-align: center;
+  background: url(../img/line.png) 50% 50% no-repeat;
+  margin-bottom: 30px;
+}
+/* line 26, ../sass/content.scss */
+.content_wrapform {
+  padding: 0 140px;
+}
+/* line 29, ../sass/content.scss */
+.content_form {
+  width: calc(100% - 19px);
+  padding-left: 19px;
+  line-height: 35px;
+  margin-bottom: 18px;
+  border: none;
+  border-bottom: 1px solid #4a4a49;
+  background: linear-gradient(to top, #111111 50%, #0e0e0e 50%);
+  color: #cccccc;
+  font-size: 14px;
+}
+/* line 39, ../sass/content.scss */
+.content_form:focus {
+  border: 1px solid #689bcc;
+  background: #1b5288;
+  box-shadow: 0px 0px 8px 4px #406d8d;
+}
+/* line 45, ../sass/content.scss */
+.content_checkbox {
+  color: #cccccc;
+  font-size: 15px;
+}
+/* line 49, ../sass/content.scss */
+.content_button {
+  margin: 25px 0 21px 60px;
+  padding: 10px 13px;
+  background: linear-gradient(to top, #2e7ac4, #50aedb);
+  border: 1px solid #56a2dd;
+  box-shadow: 0px -3px 2px 0px #67c6e6;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 61, ../sass/content.scss */
+.content_footer {
+  text-align: center;
+  padding-bottom: 21px;
+  color: #cccccc;
+  font-size: 11px;
+  line-height: 14px;
+}
